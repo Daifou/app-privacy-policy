@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fjellberg Privacy Policy</title>
+<meta name="robots" content="index, follow">
+<style>
+  :root {
+    --bg: #f4f4f3;
+    --surface: #ffffff;
+    --text: #1f2124;
+    --muted: #5d6268;
+    --line: #d6d8da;
+    --accent: #3b4046;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #17181a;
+      --surface: #1f2124;
+      --text: #ececec;
+      --muted: #9aa0a6;
+      --line: #34373b;
+      --accent: #d9dbdd;
+    }
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    line-height: 1.65;
+    font-size: 17px;
+  }
+  main {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 56px 24px 80px;
+  }
+  header { margin-bottom: 40px; padding-bottom: 28px; border-bottom: 1px solid var(--line); }
+  h1 { font-size: 2.1rem; line-height: 1.2; margin: 0 0 8px; letter-spacing: -0.01em; font-weight: 650; }
+  .meta { color: var(--muted); margin: 0; font-size: 0.95rem; }
+  h2 { font-size: 1.2rem; margin: 40px 0 10px; font-weight: 650; }
+  p { margin: 0 0 14px; }
+  ul { margin: 0 0 14px; padding-left: 22px; }
+  li { margin-bottom: 6px; }
+  a { color: var(--accent); text-underline-offset: 3px; }
+  a:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+  .summary {
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-left: 4px solid var(--accent);
+    padding: 16px 20px;
+    border-radius: 4px;
+    margin-bottom: 8px;
+  }
+  .summary p { margin: 0; }
+  footer { margin-top: 56px; padding-top: 20px; border-top: 1px solid var(--line); color: var(--muted); font-size: 0.9rem; }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <h1>Fjellberg Privacy Policy</h1>
+    <p class="meta">Effective date: 26 October 2026</p>
+  </header>
+
+  <div class="summary">
+    <p>Fjellberg processes your step and profile information on your device. It does not send that information to a Fjellberg server. Android backup may copy eligible app data to your Google backup if backup is enabled on your device.</p>
+  </div>
+
+  <h2>About this policy</h2>
+  <p>This policy describes the Fjellberg Android app. It covers data the app reads, information you enter, where the app stores it, and Android's optional app backup. Fjellberg does not have an account or login system.</p>
+
+  <h2>Information Fjellberg uses</h2>
+  <ul>
+    <li><strong>Steps and activity progress.</strong> With Activity Recognition permission, Fjellberg reads the phone's step-counter sensor. It stores daily step totals, dates, and whether a daily goal was met so it can show progress and history.</li>
+    <li><strong>Profile and plan information.</strong> Onboarding asks for age, gender, current weight, height, a fitness goal, and (for a weight-loss goal) a goal weight. It also asks about baseline steps and a plan pace. Fjellberg stores age, gender, current weight, step goal, and the generated walking plan. The plan includes goal type, height, current/goal/start weight, baseline steps, daily target, dates, and plan duration. This information is used to create and display the walking plan and profile.</li>
+    <li><strong>App preferences.</strong> Fjellberg stores whether onboarding is complete, the selected step goal, a notification preference, and a local premium-unlocked flag. The notification preference is saved, but the current build does not use it to turn the foreground tracking notification on or off.</li>
+    <li><strong>Crash details.</strong> If the app crashes, Fjellberg can save the date and time, thread name, and up to 6,000 characters of the crash stack trace in a private app file. The report is shown on the next app launch and can be cleared from that screen. A stack trace can include technical details from the error.</li>
+  </ul>
+  <p>The app does not request your name, email address, phone number, contacts, photos, or location. It does not access an advertising ID or device identifier.</p>
+
+  <h2>How information is used</h2>
+  <p>Fjellberg uses step and profile information to count steps, show daily and historical progress, calculate a walking plan, and display the plan and profile in the app. Crash details are used only to show the local crash report after a failure. The app does not send this information to us for analytics, advertising, or support.</p>
+
+  <h2>Where information is stored and backed up</h2>
+  <p>Fjellberg stores its database, preferences, walking plan, and crash report in the app's private storage on your device. The app itself contains no network permission or code that sends this information to a Fjellberg server.</p>
+  <p>The app enables Android Auto Backup and has no backup exclusion rules. If Android backup is enabled on your device, Android may copy eligible Fjellberg app data—including the database, preferences, plan, and crash report—to your Google backup. Android may also use device-to-device transfer when you move to another device. These transfers and copies are managed by Android/Google, not by a Fjellberg server. Their availability and retention depend on your device and backup settings. See <a href="https://support.google.com/android/answer/2819582" rel="noopener">Google's Android backup information</a> and <a href="https://policies.google.com/privacy" rel="noopener">Google's Privacy Policy</a>.</p>
+
+  <h2>Sharing and third parties</h2>
+  <p>Fjellberg does not operate a server and does not directly share your app data with analytics, advertising, attribution, or crash-reporting companies. The Android system backup service may transfer eligible app data to your Google backup when you have enabled device backup. Google handles that copy under its own service and privacy terms; Fjellberg cannot access or delete the backup copy for you.</p>
+
+  <h2>Permissions</h2>
+  <ul>
+    <li><strong>Activity Recognition:</strong> lets Fjellberg read the step-counter sensor. If you deny it, step counting cannot start.</li>
+    <li><strong>Foreground service:</strong> allows the step-tracking service to continue while the app is not on screen and show its ongoing tracking notification.</li>
+    <li><strong>Notifications:</strong> used to show the ongoing step-tracking notification. Fjellberg asks for this permission during setup on Android versions that require it. If you decline, the tracking notification may not be shown. You can change this in Android settings.</li>
+    <li><strong>Vibration:</strong> used for haptic feedback when you interact with onboarding controls.</li>
+    <li><strong>Receive boot completed:</strong> allows Fjellberg to try to restart step tracking after a device restart or app update, if Activity Recognition permission is granted.</li>
+  </ul>
+  <p>AndroidX Core also adds an app-specific signature permission to protect an internal dynamic receiver. It is not a sensitive permission prompt. You can change user-granted permissions in Android settings.</p>
+
+  <h2>Premium screen and payments</h2>
+  <p>Fjellberg is currently free. The current Android build does not integrate Google Play Billing or process payments. Premium features are unlocked on your device without charge. Fjellberg does not receive any payment, purchase receipt, or purchase history. If paid features are introduced in a future version, this policy will be updated before they are offered.</p>
+
+  <h2>Retention and deleting information</h2>
+  <p>Fjellberg does not automatically delete step history or profile information while the app remains installed. To remove the local app data, clear Fjellberg's storage in Android settings or uninstall the app. This removes the local copy. It may not remove a copy Android already backed up; manage or delete device backups through your Android/Google backup settings. Restoring a backup may restore app data.</p>
+  <p>Fjellberg does not keep a server-side copy that we can delete. There is no account deletion process. Contacting us cannot erase a local copy or a Google backup.</p>
+
+  <h2>Children</h2>
+  <p>Fjellberg is intended for adults aged 18 and over. The app asks for your age during setup and requires you to be 18 or older. We do not knowingly collect information from anyone under 18. Information is stored on the device and may be included in Android backup if that feature is enabled.</p>
+
+  <h2>Health and fitness notice</h2>
+  <p>Fjellberg is a general fitness and walking-planning app, not a medical device. Step totals and plan calculations are estimates for general wellness; the app does not diagnose, treat, cure, or prevent any medical condition and does not provide medical advice. Talk with a qualified healthcare professional before changing your exercise or weight plan.</p>
+
+  <h2>Changes to this policy</h2>
+  <p>If Fjellberg's data practices or this policy change, we will update the effective date on this page and publish the revised policy at the same policy URL.</p>
+
+  <h2>Contact</h2>
+  <p>For questions about this policy, email <a href="mailto:Daifalla.harkat2003@gmail.com">Daifalla.harkat2003@gmail.com</a>.</p>
+
+  <footer>&copy; 2026 Fjellberg.</footer>
+</main>
+</body>
+</html>
